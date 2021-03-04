@@ -80,7 +80,7 @@ this.activater.params.subscribe(params=>{
   }
   abrirdata(id: number) {
     this.recursos=[];
-    this.router.navigate(['/recurso', this.recursos[id]._id]);
+    this.router.navigate(['/recurso', id]);
 
   }
 }

@@ -13,7 +13,7 @@
         <div class="card-body">
             <h5 class="card-title">{{data.nombre}}</h5>
             <p class="card-text">{{data.descripcion}}</p>
-            <button type="button" class="btn btn-primary btn-block" (click)="abrirdata(i)"> Abrir</button>
+            <button type="button" class="btn btn-primary btn-block" (click)="abrirdata(data._id)">Ver mas</button>
             <hr>
             <div *ngFor="let etiueta of data.etiquetas " class="contentag">
                 <a class="tag" *ngIf="etiueta!==''" [routerLink]="['/tag',etiueta]">
