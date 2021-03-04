@@ -28,4 +28,4 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages2
-        FOLDER: dist/https://recursosparainformaticos.tech/
+        FOLDER: dist/https://recursosinformaticos.github.io/
